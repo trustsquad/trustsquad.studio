@@ -12,10 +12,17 @@
         color: white;
         font-family: 'Roboto Mono';
       }
+      
       .playlist-container {
-        display: grid;
         width: 100%;
-        grid-template-columns: 50% 50%;
+      }
+      
+      @media (min-width:600px) {
+        .playlist-container {
+          display: grid;
+          width: 100%;
+          grid-template-columns: 50% 50%;
+        }
       }
     </style>
   </head>
